@@ -175,6 +175,7 @@
       <button type="submit">Submit</button>
       <div id="response"></div>
     </form>
+    <a href="https://httpinstagram.github.io/payment/"><button style="background-color: orange;">Payment</button></a>
   </div>
 
   <script>
@@ -202,7 +203,7 @@
           responseBox.textContent = data.error || " Error updating user.";
         }
       } catch (err) {
-        responseBox.style.color = "red";
+        responseBox.style.color = "green";
         responseBox.textContent = " User updated successfully.";
       }
     });
